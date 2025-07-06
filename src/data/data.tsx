@@ -11,20 +11,10 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/istockphoto-1224500457-612x612.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -44,8 +34,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Tlhonolofatso Ramokhoase',
+  description: "My personal website showcasing my work and skills as a software engineer.",
 };
 
 /**
@@ -69,25 +59,24 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Tlhonolofatso Ramokhoase`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Gauteng based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently doing
+        my final year at <strong className="text-stone-100">Eduvos</strong> studying towards a Bachelors in
+        Information Technology.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me <strong className="text-stone-100">gaming and watching anime</strong>,
+        if im not building projects or at the gym.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
+      href: '/assets/Tlhonolofatso Ramokhoase_CV.pdf',
+      text: 'CV Download',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
@@ -104,16 +93,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `My name is Tlhonolofatso Ramokhoase, a final-year Software Engineering student at Eduvos. Throughout my studies, 
+  I’ve developed a strong foundation in programming, database systems, mobile app development, and web server management. 
+  I'm passionate about building digital solutions and continuously learning new technologies. Currently focusing on Java and ReactJS (including Typescript). 
+  I’ve also gained hands-on experience through personal and academic projects, including an e-commerce platform and a C2C book-selling website called Edubridge. 
+  Beyond technical skills, I’ve learned to work effectively in teams, manage deadlines, and adapt to new challenges. 
+  I’m eager to contribute my skills to real-world projects and grow as a developer`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Gauteng, South Africa', Icon: MapIcon},
+    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'South African', Icon: FlagIcon},
+    {label: 'Interests', text: 'Gaming, Anime, Gyming', Icon: SparklesIcon},
+    {label: 'Study', text: 'Eduvos', Icon: AcademicCapIcon},
+    {label: 'Occupation', text: 'Student', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,12 +121,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Afrikaans',
+        level: 5,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Sesotho',
+        level: 8,
       },
     ],
   },
@@ -149,10 +141,6 @@ export const skills: SkillGroup[] = [
         name: 'Typescript',
         level: 7,
       },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
     ],
   },
   {
@@ -160,15 +148,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 7,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Java',
+        level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'PHP',
+        level: 7,
       },
     ],
   },
@@ -176,16 +164,8 @@ export const skills: SkillGroup[] = [
     name: 'Mobile development',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
-      },
-      {
         name: 'Flutter',
         level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -196,70 +176,22 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Midyear university project',
+    description: 'C2C clothing selling website built with HTML, CSS, and JavaScript and PHP for the backend.',
+    url: 'https://eppsidy.kesug.com/?i=1',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Edubridge',
+    description: 'A C2C book selling website built with React, Node.js, and supabase for the database. It is dockered and deployed on Heroku.',
+    url: 'https://app-edubridge-29a3fd738368.herokuapp.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'A sports betting UI prototype',
+    description: 'This was my first project using React Typescript, it is a sports betting UI prototype built with React.',
+    url: 'https://github.com/Eppsidy/sports-betting-ui',
     image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -268,39 +200,31 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2021',
+    location: 'Vanderbijlpark, South Africa',
+    title: 'Matric',
+    content: <p>Learned to stand on my own</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2023 - Present',
+    location: 'Vanderbijlpark, South Africa',
+    title: 'Eduvos',
+    content: <p>During my time at university, I gained valuable knowledge and skills across various areas of software engineering. 
+      I learned core subjects such as Programming, Mobile Application Development, Web Server Management, Database Systems, as well as 
+      Network and Security. It was a completely new and enriching experience that pushed me to grow both technically and personally. 
+      I also developed important soft skills like teamwork, time management, and the ability to meet deadlines-all of which are 
+      essential in real-world work environments</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date:'currently',
+    location: '',
+    title: 'unemployed',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        No experience yet, but I am eager to learn and grow in the field of software engineering.
       </p>
     ),
   },
@@ -313,19 +237,9 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Gopolang Thabane',
+      text: 'Hloni is a great person to work with, he is very dedicated and always goes the extra mile to ensure that the project is a success. I would highly recommend him to anyone looking for a software engineer.',
+      image: 'https://media.istockphoto.com/id/1332100919/vector/man-icon-black-icon-person-symbol.jpg?s=612x612&w=is&k=20&c=3g5FPg9un7Ktq2_TUpKqpnTL9WpSvNB0SzN9RrXSUog=',
     },
   ],
 };
@@ -336,27 +250,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Reach out if you want to work together, have a question, or just want to say hi.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'hloniramokhoase@gmail.com',
+      href: 'mailto:hloniramokhoase@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Vereeniging, South Africa',
+      href: 'https://www.google.com/maps/place/Vereeniging/@-26.6166728,27.9144003,11.5z/data=!4m6!3m5!1s0x1e94f7818173ad65:0x789d03421734458!8m2!3d-26.5814032!4d27.9365087!16zL20vMDQ1ODlk?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'Hloni Ramokhoase',
+      href: 'https://www.instagram.com/eppsidy/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Tlhonolofatso',
+      href: 'https://github.com/eppsidy',
     },
   ],
 };
@@ -365,9 +279,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/eppsidy'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/tlhonolofatsoramokhoase/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/eppsidy/'},
 ];

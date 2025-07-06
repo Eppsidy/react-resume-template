@@ -32,16 +32,27 @@ const ContactForm: FC = memo(() => {
   const handleSendMessage = useCallback(
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
+      try {
+        const response = await fetch('https://formspree.io/f/xdkzvyog', {
+          method: 'POST',
+          headers: {'Accept': 'application/json'},
+          body: new FormData(event.currentTarget),
+        });
+        if (response.ok) {
+          alert('Message sent successfully!');
+          setData(defaultData);
+        } else {
+          alert('There was an error sending your message.');
+        }
+      } catch (error) {
+        alert('There was an error sending your message.');
+      }
     },
-    [data],
+    [defaultData],
   );
 
   const inputClasses =
-    'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
+    'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-cyber-blue-dark rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
@@ -66,7 +77,7 @@ const ContactForm: FC = memo(() => {
       />
       <button
         aria-label="Submit contact form"
-        className="w-max rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800"
+        className="w-max rounded-full border-2 border-cyber-blue-dark bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-cyber-blue-dark focus:ring-offset-2 focus:ring-offset-stone-800"
         type="submit">
         Send Message
       </button>
