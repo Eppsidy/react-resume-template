@@ -6,6 +6,22 @@ module.exports = {
     extend: {
       colors: {
         yellow: '#efc603',
+        cyber: {
+          blue: {
+            DEFAULT: '#00eaff', // bright neon blue
+            dark: '#0a192f',   // deep navy blue
+            light: '#1e2a3a',  // lighter blue for backgrounds
+          },
+          black: {
+            DEFAULT: '#0a0a0a', // true black
+            soft: '#18181b',    // soft black for backgrounds
+          },
+        },
+        // Optionally override Tailwind's default colors for a more cyber look
+        background: '#0a0a0a',
+        primary: '#00eaff',
+        secondary: '#1e2a3a',
+        accent: '#0a192f',
       },
       keyframes: {
         typing: {
