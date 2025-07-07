@@ -175,17 +175,17 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+    {
+    title: 'Edubridge',
+    description: 'A C2C book selling website built with React, Node.js, and supabase for the database. It is dockered and deployed on Heroku.',
+    url: 'https://app-edubridge-29a3fd738368.herokuapp.com/',
+    image: porfolioImage2,
+  },
   {
     title: 'Midyear university project',
     description: 'C2C clothing selling website built with HTML, CSS, and JavaScript and PHP for the backend.',
     url: 'https://eppsidy.kesug.com/?i=1',
     image: porfolioImage1,
-  },
-  {
-    title: 'Edubridge',
-    description: 'A C2C book selling website built with React, Node.js, and supabase for the database. It is dockered and deployed on Heroku.',
-    url: 'https://app-edubridge-29a3fd738368.herokuapp.com/',
-    image: porfolioImage2,
   },
   {
     title: 'A sports betting UI prototype',
