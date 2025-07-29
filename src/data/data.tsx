@@ -15,6 +15,7 @@ import heroImage from '../images/istockphoto-1224500457-612x612.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -196,7 +197,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
     {
     title: 'Edubridge',
-    description: 'A C2C book selling website built with React, Node.js, and supabase for the database. It is dockered and deployed on Heroku.',
+    description: 'This is a C2C E-commerce website for Education systems to implement. It provides a platform where students can buy and sell textbooks. Built with Reactjs, Node.js, and PostgreSQL.',
     url: 'https://edubridge-three.vercel.app/',
     image: porfolioImage2,
   },
@@ -216,7 +217,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'FlintstonedLife',
     description: 'A dispensary website built for a client friend of mine, it is built with React and Node.js for the backend.',
     url: 'https://flintstonedlife.vercel.app/',
-    image: porfolioImage2,
+    image: porfolioImage4,
   },
 ];
 
