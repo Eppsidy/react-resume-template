@@ -212,6 +212,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/Eppsidy/sports-betting-ui',
     image: porfolioImage3,
   },
+  {
+    title: 'FlintstonedLife',
+    description: 'A dispensary website built for a client friend of mine, it is built with React and Node.js for the backend.',
+    url: 'https://flintstonedlife.vercel.app/',
+    image: porfolioImage2,
+  },
 ];
 
 /**
