@@ -75,8 +75,14 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Tlhonolofatso Ramokhoase_CV.pdf',
+      href: '/assets/Tlhonolofatso_CV.pdf',
       text: 'CV Download',
+      primary: true,
+      Icon: ArrowDownTrayIcon,
+    },
+    {
+      href: '/assets/Academic Transcript Tlhonolofatso Ramokhoase CON-856949-R0C5.pdf',
+      text: 'Academic Transcript',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
@@ -134,8 +140,12 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
+        name: 'HTML & CSS',
+        level: 10,
+      },
+      {
         name: 'React',
-        level: 9,
+        level: 8,
       },
       {
         name: 'Typescript',
@@ -152,8 +162,17 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Java',
-        level: 6,
+        level: 7,
       },
+      {
+        name: 'Jakarta EE',
+        level: 7,
+      },
+      {
+        name: 'PostgresSQL',
+        level: 8,
+      },
+  
       {
         name: 'PHP',
         level: 7,
@@ -164,8 +183,8 @@ export const skills: SkillGroup[] = [
     name: 'Mobile development',
     skills: [
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'React Native',
+        level: 5,
       },
     ],
   },
@@ -178,7 +197,7 @@ export const portfolioItems: PortfolioItem[] = [
     {
     title: 'Edubridge',
     description: 'A C2C book selling website built with React, Node.js, and supabase for the database. It is dockered and deployed on Heroku.',
-    url: 'https://app-edubridge-29a3fd738368.herokuapp.com/',
+    url: 'https://edubridge-three.vercel.app/',
     image: porfolioImage2,
   },
   {
