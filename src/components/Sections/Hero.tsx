@@ -33,6 +33,7 @@ const Hero: FC = memo(() => {
                   className={classNames(
                     'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
                     primary ? 'border-cyber-blue-dark ring-cyber-blue-dark' : 'border-white ring-white',
+                    text === 'Contact' ? 'w-full sm:w-auto justify-center' : ''
                   )}
                   href={href}
                   key={text}>
