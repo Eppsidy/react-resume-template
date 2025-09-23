@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Tlhonolofatso Ramokhoase_CV.pdf',
+      href: '/assets/TlhonolofatsoRamokhoase_CV.pdf',
       text: 'CV Download',
       primary: true,
       Icon: ArrowDownTrayIcon,
