@@ -11,12 +11,12 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/istockphoto-1224500457-612x612.jpg';
+import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/IMG_20250710_134017.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Tlhonolofatso_CV.pdf',
+      href: '/assets/Tlhonolofatso Ramokhoase_CV.pdf',
       text: 'CV Download',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -101,8 +101,8 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `My name is Tlhonolofatso Ramokhoase, a final-year Software Engineering student at Eduvos. Throughout my studies, 
-  I’ve developed a strong foundation in programming, database systems, mobile app development, and web server management. 
-  I'm passionate about building digital solutions and continuously learning new technologies. Currently focusing on Java and ReactJS (including Typescript). 
+  I’ve developed a strong foundation in programming (Java, Typescript, PHP, SQL, C# and basic Python), database systems, mobile app development, Operating systems, Network and Security, and web server management. 
+  I'm passionate about building digital solutions and continuously learning new technologies. Currently focusing on Java Springboot and React frameworks. 
   I’ve also gained hands-on experience through personal and academic projects, including an e-commerce platform and a C2C book-selling website called Edubridge. 
   Beyond technical skills, I’ve learned to work effectively in teams, manage deadlines, and adapt to new challenges. 
   I’m eager to contribute my skills to real-world projects and grow as a developer`,
@@ -162,7 +162,7 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'Java',
+        name: 'Java Springboot',
         level: 7,
       },
       {
@@ -178,6 +178,10 @@ export const skills: SkillGroup[] = [
         name: 'PHP',
         level: 7,
       },
+      {
+        name: 'C# ASP.NET',
+        level: 5,
+      },
     ],
   },
   {
@@ -186,6 +190,9 @@ export const skills: SkillGroup[] = [
       {
         name: 'React Native',
         level: 5,
+      },
+      { name: 'Java Android',
+        level: 6,
       },
     ],
   },
@@ -228,7 +235,7 @@ export const education: TimelineItem[] = [
   {
     date: '2021',
     location: 'Vanderbijlpark, South Africa',
-    title: 'Matric',
+    title: 'Suiderlig Hoerskool, Matric',
     content: <p>Learned to stand on my own</p>,
   },
   {
