@@ -191,7 +191,8 @@ export const skills: SkillGroup[] = [
         name: 'React Native',
         level: 5,
       },
-      { name: 'Java Android',
+      { 
+        name: 'Java Android',
         level: 6,
       },
     ],
