@@ -17,6 +17,8 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -268,7 +270,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Edubridge',
     description: 'This is a C2C E-commerce website for Education systems to implement. It provides a platform where students can buy and sell textbooks. Built with Reactjs, Node.js, and PostgreSQL.',
     url: 'https://edubridge-three.vercel.app/',
-    image: porfolioImage3,
+    image: porfolioImage7,
   },
   {
     title: 'Midyear university project',
@@ -286,7 +288,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'FlintstonedLife',
     description: 'A dispensary website built for a client friend of mine, it is built with React and Node.js for the backend.',
     url: 'https://flintstonedlife.vercel.app/',
-    image: porfolioImage1,
+    image: porfolioImage6,
   },
 ];
 
