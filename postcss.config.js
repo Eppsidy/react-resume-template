@@ -5,7 +5,7 @@ const plugins = {
   tailwindcss: {},
   autoprefixer: {},
   'postcss-preset-env': {
-    features: { 'nesting-rules': false },
+    features: {'nesting-rules': false},
   },
 };
 
@@ -13,4 +13,4 @@ if (process.env.NODE_ENV === 'production') {
   plugins.cssnano = {};
 }
 
-module.exports = { plugins };
+module.exports = {plugins};
