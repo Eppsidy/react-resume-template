@@ -64,13 +64,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Gauteng based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently doing
-        my final year at <strong className="text-stone-100">Eduvos</strong> studying towards a Bachelors in
+        I'm a Gauteng based <strong className="text-stone-100">Software Engineer</strong>, currently doing
+        my final year, studying towards a Bachelors in
         Information Technology.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me <strong className="text-stone-100">gaming and watching anime</strong>,
-        if im not building projects or at the gym.
+        if I'm not building projects or at the gym.
       </p>
     </>
   ),
@@ -101,9 +101,9 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `My name is Tlhonolofatso Ramokhoase, a final-year Software Engineering student at Eduvos. Throughout my studies, 
-  I’ve developed a strong foundation in programming (Java, Typescript, PHP, SQL, C# and basic Python), database systems, mobile app development, Operating systems, Network and Security, and web server management. 
-  I'm passionate about building digital solutions and continuously learning new technologies. Currently focusing on Java Springboot and React frameworks. 
-  I’ve also gained hands-on experience through personal and academic projects, including an e-commerce platform and a C2C book-selling website called Edubridge. 
+  I’ve developed a strong foundation in programming (Java/Springboot and Python) paired with strong frontend frameworks such as React and React Native. I've also proficient in databases(PostgreSQL). I've have an understanding of database systems, mobile app development, Web development, Operating systems, Network and Security, and web server management. 
+  I'm passionate about building digital solutions and continuously learning new technologies.
+  I’ve gained hands-on experience through personal and academic projects, including developing mobile applications and web applications.
   Beyond technical skills, I’ve learned to work effectively in teams, manage deadlines, and adapt to new challenges. 
   I’m eager to contribute my skills to real-world projects and grow as a developer`,
   aboutItems: [
@@ -138,62 +138,111 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Programming Languages',
     skills: [
       {
-        name: 'HTML & CSS',
+        name: 'Java',
+        level: 8,
+      },
+      {
+        name: 'HTML + CSS + Javascript/TypescriptS',
+        level: 8,
+      },
+      {
+        name: 'Python',
+        level: 7,
+      },
+      {
+        name: 'PHP',
+        level: 4,
+      },
+      {
+        name: 'SQL',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Database',
+    skills: [
+      {
+        name: 'PostgreSQL',
+        level: 9,
+      },
+      {
+        name: 'MySQL',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Software',
+    skills: [
+      {
+        name: 'IntelliJ',
         level: 10,
       },
       {
+        name: 'VScode',
+        level: 10,
+      },
+      {
+        name: 'GitHub',
+        level: 10,
+      },
+      {
+        name: 'Docker',
+        level: 7,
+      },
+      {
+        name: 'Android studio',
+        level: 8,
+      },
+      {
+        name: 'PyCharm',
+        level: 6,
+      },
+    ],
+  },
+  {
+    name: 'Frameworks',
+    skills: [
+      {
+        name: 'J2EE',
+        level: 7,
+      },
+      {
         name: 'React',
-        level: 8,
+        level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Nodejs',
         level: 7,
       },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 7,
-      },
-      {
-        name: 'Java Springboot',
-        level: 7,
-      },
-      {
-        name: 'Jakarta EE',
-        level: 7,
-      },
-      {
-        name: 'PostgresSQL',
-        level: 8,
-      },
-  
-      {
-        name: 'PHP',
-        level: 7,
-      },
-      {
-        name: 'C# ASP.NET',
-        level: 5,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
       {
         name: 'React Native',
-        level: 5,
+        level: 8,
       },
-      { 
-        name: 'Java Android',
+      {
+        name: 'Spring Boot',
+        level: 8,
+      },
+      {
+        name: 'FastAPI',
         level: 6,
+      },
+    ],
+  },
+  {
+    name: 'Cloud services',
+    skills: [
+      {
+        name: 'Microsoft Azure',
+        level: 6,
+      },
+      {
+        name: 'DigitalOcean',
+        level: 8,
       },
     ],
   },
@@ -203,11 +252,23 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'eGOvSA',
+    description: 'A government mobile application that provides citizens with access to various government services and information. Built with React Native and Java Springboot for the backend.',
+    url: 'https://github.com/Eppsidy/eGovSA',
+    image: porfolioImage4,
+  },
+  {
+    title: 'TnCs Scanner',
+    description: 'Built an AI-powered document analyzer that helps users quickly understand Terms & Conditions documents by providing instant summaries, risk assessments, and key point extraction.',
+    url: 'https://tncs-scanner.vercel.app/',
+    image: porfolioImage2,
+  },
     {
     title: 'Edubridge',
     description: 'This is a C2C E-commerce website for Education systems to implement. It provides a platform where students can buy and sell textbooks. Built with Reactjs, Node.js, and PostgreSQL.',
     url: 'https://edubridge-three.vercel.app/',
-    image: porfolioImage2,
+    image: porfolioImage3,
   },
   {
     title: 'Midyear university project',
@@ -225,7 +286,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'FlintstonedLife',
     description: 'A dispensary website built for a client friend of mine, it is built with React and Node.js for the backend.',
     url: 'https://flintstonedlife.vercel.app/',
-    image: porfolioImage4,
+    image: porfolioImage1,
   },
 ];
 
