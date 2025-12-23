@@ -66,9 +66,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Gauteng based <strong className="text-stone-100">Software Engineer</strong>, currently doing
-        my final year, studying towards a Bachelors in
-        Information Technology.
+        I'm a Gauteng based <strong className="text-stone-100">Junior/Graduate Software Engineer</strong> who has recently completed my Bachelors degree in Information Technology. Proven ability to deliver real-world, deployed solutions through academic and freelance-style projects, with strong foundations in software design, APIs, databases, and DevOps tooling. Ready to leverage my skills and passion in tech for you.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me <strong className="text-stone-100">playing squash, gaming and watching anime</strong>,
