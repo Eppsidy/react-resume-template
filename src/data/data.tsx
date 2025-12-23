@@ -78,13 +78,13 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/TlhonolofatsoR_CV.pdf',
+      href: '/assets/TlhonolofatsoRamokhoaseCV.pdf',
       text: 'CV Download',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
     {
-      href: '/assets/Academic Transcript Tlhonolofatso Ramokhoase CON-856949-R0C5.pdf',
+      href: '/assets/LBL Academic Transcript (26) Tlhonolofatso Ramokhoase.pdf',
       text: 'Academic Transcript',
       primary: true,
       Icon: ArrowDownTrayIcon,
