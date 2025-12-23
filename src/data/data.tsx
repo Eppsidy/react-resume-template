@@ -71,8 +71,8 @@ export const heroData: Hero = {
         Information Technology.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">gaming and watching anime</strong>,
-        if I'm not building projects or at the gym.
+        In my free time time, you can catch me <strong className="text-stone-100">playing squash, gaming and watching anime</strong>,
+        if I'm not building projects.
       </p>
     </>
   ),
