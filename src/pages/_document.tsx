@@ -14,6 +14,18 @@ export default function Document() {
           - https://github.com/facebook/react/issues/11538
           - https://bugs.chromium.org/p/chromium/issues/detail?id=872770 */}
         <meta content="notranslate" name="google" />
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WM3SM02ERN"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-WM3SM02ERN');
+            `,
+          }}
+        />
       </Head>
       <body className="bg-black">
         <Main />
