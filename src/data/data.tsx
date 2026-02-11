@@ -301,7 +301,7 @@ export const education: TimelineItem[] = [
     content: <p>Learned to stand on my own</p>,
   },
   {
-    date: '2023 - Present',
+    date: '2023 - 2025',
     location: 'Vanderbijlpark, South Africa',
     title: 'Eduvos',
     content: <p>During my time at university, I gained valuable knowledge and skills across various areas of software engineering. 
