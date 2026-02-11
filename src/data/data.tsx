@@ -76,13 +76,13 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/TlhonolofatsoRamokhoaseCV.pdf',
+      href: '/assets/TlhonolofatsoRamokhoaseCV (8).pdf',
       text: 'CV Download',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
     {
-      href: '/assets/LBL Academic Transcript (26) Tlhonolofatso Ramokhoase.pdf',
+      href: '/assets/Final_Academic_Trancript.pdf',
       text: 'Academic Transcript',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -100,7 +100,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `My name is Tlhonolofatso Ramokhoase, a final-year Software Engineering student at Eduvos. Throughout my studies, 
+  description: `My name is Tlhonolofatso Ramokhoase, a fresh graduate Software Engineering student at Eduvos. Throughout my studies, 
   I’ve developed a strong foundation in programming (Java/Springboot and Python) paired with strong frontend frameworks such as React and React Native. I've also proficient in databases(PostgreSQL). I've have an understanding of database systems, mobile app development, Web development, Operating systems, Network and Security, and web server management. 
   I'm passionate about building digital solutions and continuously learning new technologies.
   I’ve gained hands-on experience through personal and academic projects, including developing mobile applications and web applications.
