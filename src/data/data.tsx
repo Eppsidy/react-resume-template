@@ -108,11 +108,11 @@ export const aboutData: About = {
   I’m eager to contribute my skills to real-world projects and grow as a developer`,
   aboutItems: [
     {label: 'Location', text: 'Gauteng, South Africa', Icon: MapIcon},
-    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Nationality', text: 'South African', Icon: FlagIcon},
     {label: 'Interests', text: 'Gaming, Anime, Gyming', Icon: SparklesIcon},
-    {label: 'Study', text: 'Eduvos', Icon: AcademicCapIcon},
-    {label: 'Occupation', text: 'Student', Icon: BuildingOffice2Icon},
+    {label: 'Study', text: 'Bachelors Degree in Information Technology', Icon: AcademicCapIcon},
+    {label: 'Occupation', text: 'Graduate', Icon: BuildingOffice2Icon},
   ],
 };
 
